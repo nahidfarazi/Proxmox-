@@ -3,7 +3,7 @@
 ```sh
 ls -la /ec/ssh
 ```
-2. #### Delet host key
+2. #### Delete host key
 ```sh
 cd /ect/ssh
 ```
