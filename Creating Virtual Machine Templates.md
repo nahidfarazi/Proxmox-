@@ -14,7 +14,7 @@ sudo rm ssh_host_*
 ```sh
 sudo apt install cloud-init
 ```
-4. #### machine id dynamic
+4. #### now empty machine id
 ```sh
 sudo truncate -s 0 /etc/machine-id
 ```
