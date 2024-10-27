@@ -3,7 +3,14 @@
 ```sh
 ls -la /ec/ssh
 ```
-2. #### install cloud-init
+2. #### Delet host key
+```sh
+cd /ect/ssh
+```
+```sh
+sudo rm ssh_host*
+``` 
+3. #### install cloud-init
 ```sh
 sudo apt install cloud-init
 ```
