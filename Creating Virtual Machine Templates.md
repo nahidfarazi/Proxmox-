@@ -5,7 +5,7 @@ ls -la /ec/ssh
 ```
 2. #### Delete host key
 ```sh
-cd /ect/ssh
+cd /etc/ssh
 ```
 ```sh
 sudo rm ssh_host*
