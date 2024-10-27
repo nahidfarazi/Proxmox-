@@ -22,6 +22,16 @@ sudo truncate -s 0 /etc/machine-id
 ```sh
 sudo ln -s /etc/machine-id /var/lib/dbus/machine-id
 ```
+6. #### some intiential command
+```sh
+sudo apt clean && sudo apt autoremove
+```
+
+## Now go to proxmox web
+1. #### right click your webserver
+2. #### click convert to template
+3. #### Pop up click yes
+- it's take some time & make  Virtual Machine Templates
 
 
    <!--    t         -->
