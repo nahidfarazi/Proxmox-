@@ -26,8 +26,11 @@ sudo ln -s /etc/machine-id /var/lib/dbus/machine-id
 ```sh
 sudo apt clean && sudo apt autoremove
 ```
-
-## Now go to proxmox web
+7. #### Power off your webserver
+```sh
+sudo poweroff
+```
+## - Now go to proxmox web
 1. #### right click your webserver
 2. #### click convert to template
 3. #### Pop up click yes
