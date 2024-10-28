@@ -5,10 +5,7 @@ ls -la /etc/ssh
 ```
 2. #### Delete host key
 ```sh
-cd /etc/ssh
-```
-```sh
-sudo rm ssh_host_*
+sudo rm /etc/ssh/ssh_host_*
 ``` 
 3. #### install cloud-init
 ```sh
